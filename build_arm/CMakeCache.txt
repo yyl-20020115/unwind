@@ -18,7 +18,7 @@
 ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=~/opt/ndk-r25b
+ANDROID_NDK:UNINITIALIZED=/home/yilin/opt/ndk-r25b
 
 //No help, variable specified on the command line.
 ANDROID_PLATFORM:UNINITIALIZED=android-19

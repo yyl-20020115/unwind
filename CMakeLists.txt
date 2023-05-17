@@ -101,6 +101,9 @@ SET(WRAP_SRC
     wrap/process_vm_readv.cpp
     wrap/android-base/file.cpp
 )
+SET(EXP_SRC
+	libunwindstack/ExportFunctions.cpp
+	)
 
 INCLUDE_DIRECTORIES(
     libunwindstack/include
@@ -115,12 +118,12 @@ ADD_LIBRARY(
 
     SHARED
 
-    ${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC}
+    ${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC} ${EXP_SRC}
 )
 ADD_LIBRARY(
 	unwindstack_static
 	STATIC
-	${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC}
+	${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC} ${EXP_SRC}
 )
 
 TARGET_LINK_LIBRARIES(unwindstack log)

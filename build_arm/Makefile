@@ -1465,6 +1465,33 @@ libunwindstack/ElfInterfaceArm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack_static.dir/build.make CMakeFiles/unwindstack_static.dir/libunwindstack/ElfInterfaceArm.cpp.s
 .PHONY : libunwindstack/ElfInterfaceArm.cpp.s
 
+libunwindstack/ExportFunctions.o: libunwindstack/ExportFunctions.cpp.o
+.PHONY : libunwindstack/ExportFunctions.o
+
+# target to build an object file
+libunwindstack/ExportFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack.dir/build.make CMakeFiles/unwindstack.dir/libunwindstack/ExportFunctions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack_static.dir/build.make CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o
+.PHONY : libunwindstack/ExportFunctions.cpp.o
+
+libunwindstack/ExportFunctions.i: libunwindstack/ExportFunctions.cpp.i
+.PHONY : libunwindstack/ExportFunctions.i
+
+# target to preprocess a source file
+libunwindstack/ExportFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack.dir/build.make CMakeFiles/unwindstack.dir/libunwindstack/ExportFunctions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack_static.dir/build.make CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.i
+.PHONY : libunwindstack/ExportFunctions.cpp.i
+
+libunwindstack/ExportFunctions.s: libunwindstack/ExportFunctions.cpp.s
+.PHONY : libunwindstack/ExportFunctions.s
+
+# target to generate assembly for a file
+libunwindstack/ExportFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack.dir/build.make CMakeFiles/unwindstack.dir/libunwindstack/ExportFunctions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unwindstack_static.dir/build.make CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.s
+.PHONY : libunwindstack/ExportFunctions.cpp.s
+
 libunwindstack/Global.o: libunwindstack/Global.cpp.o
 .PHONY : libunwindstack/Global.o
 
@@ -2162,6 +2189,9 @@ help:
 	@echo "... libunwindstack/ElfInterfaceArm.o"
 	@echo "... libunwindstack/ElfInterfaceArm.i"
 	@echo "... libunwindstack/ElfInterfaceArm.s"
+	@echo "... libunwindstack/ExportFunctions.o"
+	@echo "... libunwindstack/ExportFunctions.i"
+	@echo "... libunwindstack/ExportFunctions.s"
 	@echo "... libunwindstack/Global.o"
 	@echo "... libunwindstack/Global.i"
 	@echo "... libunwindstack/Global.s"

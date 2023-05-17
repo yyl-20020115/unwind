@@ -1035,6 +1035,20 @@ CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.s"
 	/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --sysroot=/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yilin/Working/unwind/aosp/external/lzma/C/XzIn.c -o CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.s
 
+CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o: CMakeFiles/unwindstack_static.dir/flags.make
+CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o: /home/yilin/Working/unwind/libunwindstack/ExportFunctions.cpp
+CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o: CMakeFiles/unwindstack_static.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yilin/Working/unwind/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o"
+	/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --sysroot=/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o -MF CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o.d -o CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o -c /home/yilin/Working/unwind/libunwindstack/ExportFunctions.cpp
+
+CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.i"
+	/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --sysroot=/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yilin/Working/unwind/libunwindstack/ExportFunctions.cpp > CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.i
+
+CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.s"
+	/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --sysroot=/home/yilin/opt/ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yilin/Working/unwind/libunwindstack/ExportFunctions.cpp -o CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.s
+
 # Object files for target unwindstack_static
 unwindstack_static_OBJECTS = \
 "CMakeFiles/unwindstack_static.dir/libunwindstack/ArmExidx.cpp.o" \
@@ -1105,7 +1119,8 @@ unwindstack_static_OBJECTS = \
 "CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzCrc64Opt.c.o" \
 "CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzDec.c.o" \
 "CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzEnc.c.o" \
-"CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.o"
+"CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.o" \
+"CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o"
 
 # External object files for target unwindstack_static
 unwindstack_static_EXTERNAL_OBJECTS =
@@ -1179,9 +1194,10 @@ libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/
 libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzDec.c.o
 libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzEnc.c.o
 libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/aosp/external/lzma/C/XzIn.c.o
+libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o
 libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/build.make
 libunwindstack_static.a: CMakeFiles/unwindstack_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yilin/Working/unwind/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX static library libunwindstack_static.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yilin/Working/unwind/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX static library libunwindstack_static.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/unwindstack_static.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unwindstack_static.dir/link.txt --verbose=$(VERBOSE)
 

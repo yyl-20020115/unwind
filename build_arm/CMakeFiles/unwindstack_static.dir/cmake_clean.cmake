@@ -97,6 +97,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/unwindstack_static.dir/libunwindstack/ElfInterface.cpp.o.d"
   "CMakeFiles/unwindstack_static.dir/libunwindstack/ElfInterfaceArm.cpp.o"
   "CMakeFiles/unwindstack_static.dir/libunwindstack/ElfInterfaceArm.cpp.o.d"
+  "CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o"
+  "CMakeFiles/unwindstack_static.dir/libunwindstack/ExportFunctions.cpp.o.d"
   "CMakeFiles/unwindstack_static.dir/libunwindstack/Global.cpp.o"
   "CMakeFiles/unwindstack_static.dir/libunwindstack/Global.cpp.o.d"
   "CMakeFiles/unwindstack_static.dir/libunwindstack/JitDebug.cpp.o"
