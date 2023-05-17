@@ -117,5 +117,10 @@ ADD_LIBRARY(
 
     ${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC}
 )
+ADD_LIBRARY(
+	unwindstack_static
+	STATIC
+	${BASE_SRC} ${AOSP_SRC} ${WRAP_SRC} ${LZMA_SRC}
+)
 
 TARGET_LINK_LIBRARIES(unwindstack log)

@@ -1,6 +1,6 @@
 #/bin/bash
 
-export ANDROID_NDK=/c/android-ndk-r13b
+export ANDROID_NDK=~/opt/ndk-r25b
 
 rm -r build_arm
 mkdir build_arm && cd build_arm
