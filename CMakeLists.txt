@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.4.1)
-
+project(libunwindstack)
 # needed by AsmGetRegsX86.S and AsmGetRegsX86_64.S
 enable_language(ASM)
 
